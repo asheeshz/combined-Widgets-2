@@ -23,7 +23,7 @@
 
         // --- ब्लॉगर पोस्ट कंटेंट एरिया का चयन ---
         // !!! महत्वपूर्ण: अपनी थीम के अनुसार सही सेलेक्टर डालें !!!
-        const postContentArea = document.querySelector('.post-body'); // <-- आपकी थीम के अनुसार एडजस्ट करें! '.post-body' या अन्य
+        const postContentArea = document.querySelector('post-body post-content'); // <-- आपकी थीम के अनुसार एडजस्ट करें! '.post-body' या अन्य
 
         // --- राज्य चर ---
         let currentlyHighlightedElements = [];
